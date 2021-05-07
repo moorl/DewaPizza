@@ -1,158 +1,1375 @@
 [
-  {
-    "active": true,
-    "name": "Pizza Dewa",
-    "description": "Knusprige Pizza mit luftigem Boden.",
-    "productNumber": "011",
-    "stock": 100,
-    "taxId": "{TAX_ID_REDUCED}",
-    "price": 3.50,
-    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
-    "categories": [{"id": "{DEMO_CATEGORY_1}"}],
-    "cover": {"mediaId": "pexels-photo-2619970"}
-  },
-  {
-    "active": true,
-    "name": "Pizza Veggie",
-    "description": "Knusprige Pizza mit luftigem Boden und ohne Fleisch.",
-    "productNumber": "012",
-    "stock": 100,
-    "taxId": "{TAX_ID_REDUCED}",
-    "price": 3.00,
-    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
-    "categories": [{"id": "{DEMO_CATEGORY_1}"}],
-    "cover": {"mediaId": "pexels-photo-2619970"}
-  },
-  {
-    "active": true,
-    "name": "Pizza Feurig",
-    "description": "Knusprige Pizza mit luftigem Boden und feurigen Peperoni.",
-    "productNumber": "013",
-    "stock": 100,
-    "taxId": "{TAX_ID_REDUCED}",
-    "price": 3.50,
-    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
-    "categories": [{"id": "{DEMO_CATEGORY_1}"}],
-    "cover": {"mediaId": "pexels-photo-2619970"}
-  },
-  {
-    "active": true,
-    "name": "Pizza Royale",
-    "description": "Knusprige Pizza mit luftigem Boden und vorzüglichen Zutaten.",
-    "productNumber": "014",
-    "stock": 100,
-    "taxId": "{TAX_ID_REDUCED}",
-    "price": 4.50,
-    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
-    "categories": [{"id": "{DEMO_CATEGORY_1}"}],
-    "cover": {"mediaId": "pexels-photo-2619970"}
-  },
-  {
-    "active": true,
-    "name": "Pizza Sparfuchs",
-    "description": "Knusprige und günstige Pizza.",
-    "productNumber": "015",
-    "stock": 100,
-    "taxId": "{TAX_ID_REDUCED}",
-    "price": 2.50,
-    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
-    "categories": [{"id": "{DEMO_CATEGORY_1}"}],
-    "cover": {"mediaId": "pexels-photo-2619970"}
-  },
-  {
-    "active": true,
-    "name": "Pasta Dewa",
-    "description": "Herzhafte Pasta",
-    "productNumber": "021",
-    "stock": 100,
-    "taxId": "{TAX_ID_REDUCED}",
-    "price": 5.50,
-    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
-    "categories": [{"id": "{DEMO_CATEGORY_2}"}],
-    "cover": {"mediaId": "pexels-photo-1527603"}
-  },
-  {
-    "active": true,
-    "name": "Pasta Veggie",
-    "description": "Herzhafte Pasta ohne Fleisch.",
-    "productNumber": "022",
-    "stock": 100,
-    "taxId": "{TAX_ID_REDUCED}",
-    "price": 5.00,
-    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
-    "categories": [{"id": "{DEMO_CATEGORY_2}"}],
-    "cover": {"mediaId": "pexels-photo-1527603"}
-  },
-  {
-    "active": true,
-    "name": "Pasta Feurig",
-    "description": "Herzhafte Pasta mit feurigen Peperoni.",
-    "productNumber": "023",
-    "stock": 100,
-    "taxId": "{TAX_ID_REDUCED}",
-    "price": 5.50,
-    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
-    "categories": [{"id": "{DEMO_CATEGORY_2}"}],
-    "cover": {"mediaId": "pexels-photo-1527603"}
-  },
-  {
-    "active": true,
-    "name": "Pasta Royale",
-    "description": "Herzhafte Pasta mit vorzüglichen Zutaten.",
-    "productNumber": "024",
-    "stock": 100,
-    "taxId": "{TAX_ID_REDUCED}",
-    "price": 7.50,
-    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
-    "categories": [{"id": "{DEMO_CATEGORY_2}"}],
-    "cover": {"mediaId": "pexels-photo-1527603"}
-  },
-  {
-    "active": true,
-    "name": "Pasta Sparfuchs",
-    "description": "Günstige Pasta.",
-    "productNumber": "025",
-    "stock": 100,
-    "taxId": "{TAX_ID_REDUCED}",
-    "price": 3.50,
-    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
-    "categories": [{"id": "{DEMO_CATEGORY_2}"}],
-    "cover": {"mediaId": "pexels-photo-1527603"}
-  },
-  {
-    "active": true,
-    "name": "Kaffee, 0,2L",
-    "description": "Frisch gekochter Kaffee",
-    "productNumber": "031",
-    "stock": 100,
-    "taxId": "{TAX_ID_REDUCED}",
-    "price": 1.50,
-    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
-    "categories": [{"id": "{DEMO_CATEGORY_3}"}],
-    "cover": {"mediaId": "pexels-photo-908331"}
-  },
-  {
-    "active": true,
-    "name": "Kaffee, 0,4L",
-    "description": "Frisch gekochter Kaffee",
-    "productNumber": "032",
-    "stock": 100,
-    "taxId": "{TAX_ID_REDUCED}",
-    "price": 2.50,
-    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
-    "categories": [{"id": "{DEMO_CATEGORY_3}"}],
-    "cover": {"mediaId": "pexels-photo-908331"}
-  },
-  {
-    "active": true,
-    "name": "Kraneberger Mineralwasser",
-    "description": "Frisch gezapftes Wasser",
-    "productNumber": "033",
-    "stock": 100,
-    "taxId": "{TAX_ID_REDUCED}",
-    "price": 0,
-    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
-    "categories": [{"id": "{DEMO_CATEGORY_3}"}],
-    "cover": {"mediaId": "pexels-photo-4021869"}
-  }
+    {
+        "active": true,
+        "name": "Pizza Salami",
+        "description": "Leckere traditionelle Salamipizza.",
+        "productNumber": "001",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 5.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_4}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product\/pizza-414877_1280"
+        }
+    },
+    {
+        "active": true,
+        "name": "Pizza Margherita",
+        "description": "Der absolute Klassiker.",
+        "productNumber": "002",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 4.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_4}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/pizza-2446700_1280"
+        }
+    },
+    {
+        "active": true,
+        "name": "Pizza Diavolo (scharf)",
+        "description": "Mit leckerer Pepperoni Salami.",
+        "productNumber": "003",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 6.00,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_4}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/salami-1119697_1920"
+        }
+    },
+    {
+        "active": true,
+        "name": "Pizza Döner",
+        "description": "Mit leckereren Kebabfleisch.",
+        "productNumber": "004",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 6.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_4}"
+            }
+        ]
+    },
+    {
+        "active": true,
+        "name": "Pizza Fungi",
+        "description": "Mit frischen Pilzen.",
+        "productNumber": "005",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 5.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_4}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/pexels-photo-6147834"
+        }
+    },
+    {
+        "active": true,
+        "name": "Pizza Gyros",
+        "description": "Mit herzhaften Gyrosfleisch.",
+        "productNumber": "006",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 6.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_4}"
+            }
+        ]
+    },
+    {
+        "active": true,
+        "name": "Pizza Hawai",
+        "description": "Mit frischer Ananas.",
+        "productNumber": "007",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 5.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_4}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/pexels-any-lane-5945754"
+        }
+    },
+    {
+        "active": true,
+        "name": "Pizza Prosciutto",
+        "description": "Mit feinsten italienischen Schinken.",
+        "productNumber": "008",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 6.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_4}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/pizza-prosciutto-182939_1280"
+        }
+    },
+    {
+        "active": true,
+        "name": "Pizza Quattro Formaggi",
+        "description": "Mit vier verschiedenen Käsesorten.",
+        "productNumber": "009",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 6.00,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_4}"
+            }
+        ]
+    },
+    {
+        "active": true,
+        "name": "Pizza Salmone",
+        "description": "Frischer Lachs direkt auf der Pizza.",
+        "productNumber": "010",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 7.00,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_4}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/pizza-734644_1920"
+        }
+    },
+    {
+        "active": true,
+        "name": "Pizza Tonno",
+        "description": "Mit saftigem Thunfisch.",
+        "productNumber": "011",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 6.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_4}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/pizza-1626188_1280"
+        }
+    },
+    {
+        "active": true,
+        "name": "Pizza Spinaci",
+        "description": "Mit frischem Spinat.",
+        "productNumber": "012",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 6.00,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_4}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/spinach-72123_1280"
+        }
+    },
+
+
+
+
+    {
+        "active": true,
+        "name": "Hamburger",
+        "description": "Mit Salat, Tomaten und Gewürzgurken.",
+        "productNumber": "013",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 4.00,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_5}"
+            }
+        ]
+    },
+    {
+        "active": true,
+        "name": "Cheesburger",
+        "description": "Mit Tomaten, Gewürzgurken und Käse.",
+        "productNumber": "014",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 4.00,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_5}"
+            }
+        ]
+    },
+    {
+        "active": true,
+        "name": "Chilli Cheesburger (scharf)",
+        "description": "Mit Jalapenos, Tomaten, Gewürzgurken und Käse.",
+        "productNumber": "015",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 4.00,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_5}"
+            }
+        ]
+    },
+    {
+        "active": true,
+        "name": "Chickenburger",
+        "description": "Mit Salat, Tomaten und Gewürzgurken und Käse.",
+        "productNumber": "016",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 4.00,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_5}"
+            }
+        ]
+    },
+    {
+        "active": true,
+        "name": "Fischburger",
+        "description": "Mit Salat, Tomaten und Gewürzgurken und Käse.",
+        "productNumber": "017",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 4.00,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_5}"
+            }
+        ]
+    },
+
+
+
+
+
+
+
+
+    {
+        "active": true,
+        "name": "Spagetti Bolognese",
+        "description": "Mit frischem Hackfleisch",
+        "productNumber": "032",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 6.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_8}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/pexels-klaus-nielsen-6287525"
+        }
+    },
+    {
+        "active": true,
+        "name": "Spagetti Carbonnara",
+        "description": "Mit frischer Sahnesauce und Schinken",
+        "productNumber": "033",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 6.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_8}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/pexels-engin-akyurt-2703468"
+        }
+    },
+    {
+        "active": true,
+        "name": "Spagetti Napoli",
+        "description": "Mit klassischer Tomatensauce",
+        "productNumber": "034",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 6.00,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_8}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/pasta-329522_1920"
+        }
+    },
+    {
+        "active": true,
+        "name": "Pasta Salmone",
+        "description": "Pasta mit frischem Lachs",
+        "productNumber": "035",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 7.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_8}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/pexels-anthony-leong-2092906"
+        }
+    },
+    {
+        "active": true,
+        "name": "Lasagne klassisch",
+        "description": "Mit hausgemachtzer Bolongnese",
+        "productNumber": "036",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 7.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_8}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/pexels-alleksana-5949900"
+        }
+    },
+    {
+        "active": true,
+        "name": "Lasagne vegetarisch",
+        "description": "Ohne Hackfleisch, mit Spinat",
+        "productNumber": "037",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 7.00,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_8}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/pexels-daniele-sgura-4162496"
+        }
+    },
+    {
+        "active": true,
+        "name": "Eisbecher",
+        "description": "3 Kugeln - Vanille, Schoko und Erdbeere.",
+        "productNumber": "150",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 5.00,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_14}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/pexels-sebastian-coman-photography-3625371"
+        }
+    },
+    {
+        "active": true,
+        "name": "Cupcake",
+        "description": "",
+        "productNumber": "151",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 2.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_14}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/pexels-vojtech-okenka-1055272"
+        }
+    },
+    {
+        "active": true,
+        "name": "Kuchen (1 Stück)",
+        "description": "Leckerer Schokokuchen.",
+        "productNumber": "152",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 5.00,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_14}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/pexels-abhinav-goswami-291528"
+        }
+    },
+    {
+        "active": true,
+        "name": "Tiramisu (1 Stück)",
+        "description": "Hausgemachtes Tiramisu.",
+        "productNumber": "153",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 4.00,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_14}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/pexels-peemapat-jomswang-6403383"
+        }
+    },
+    {
+        "active": true,
+        "name": "Pizzabrötchen",
+        "description": "Frisch aus dem Ofen, ohne Füllung.",
+        "productNumber": "042",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 2.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_6}"
+            }
+        ]
+    },
+    {
+        "active": true,
+        "name": "Pizzabrötchen mit Käse",
+        "description": "Mit Käsefüllung",
+        "productNumber": "043",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 3.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_6}"
+            }
+        ]
+    },
+    {
+        "active": true,
+        "name": "Pizzabrötchen mit Salami",
+        "description": "Mit Käse und edeler Salami.",
+        "productNumber": "044",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 4.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_6}"
+            }
+        ]
+    },
+    {
+        "active": true,
+        "name": "Pizzabrötchen mit Schinken",
+        "description": "Mit Käse und feinsten Schinken.",
+        "productNumber": "045",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 4.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_6}"
+            }
+        ]
+    },
+    {
+        "active": true,
+        "name": "Calzone klassisch",
+        "description": "Gefüllt mit Mozzarella, Schinken  und  Champignons.",
+        "productNumber": "046",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 7.00,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_7}"
+            }
+        ]
+    },
+    {
+        "active": true,
+        "name": "Calzone Döner",
+        "description": "Gefüllt mit Mozzarella, Zwiebeln und Kebabfleisch.",
+        "productNumber": "047",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 8.00,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_7}"
+            }
+        ]
+    },
+    {
+        "active": true,
+        "name": "Jägerschnitzel",
+        "description": "Mit Beilage nach Wahl",
+        "productNumber": "048",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 7.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_10}"
+            }
+        ]
+    },
+    {
+        "active": true,
+        "name": "Wienerschnitzel",
+        "description": "Mit Beilage nach Wahl",
+        "productNumber": "049",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 7.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_10}"
+            }
+        ]
+    },
+    {
+        "active": true,
+        "name": "Zigeunerschnitzel",
+        "description": "Mit Beilage nach Wahl",
+        "productNumber": "050",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 7.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_10}"
+            }
+        ]
+    },
+    {
+        "active": true,
+        "name": "Zigeunerschnitzel",
+        "description": "Mit Beilage nach Wahl",
+        "productNumber": "051",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 7.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_10}"
+            }
+        ]
+    },
+    {
+        "active": true,
+        "name": "Rahmschnitzel",
+        "description": "Mit Beilage nach Wahl",
+        "productNumber": "052",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 7.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_10}"
+            }
+        ]
+    },
+    {
+        "active": true,
+        "name": "Grüner Salat",
+        "description": "Wahl aus: Klein oder Groß - Verschiedene Dressings",
+        "productNumber": "053",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 4.00,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_9}"
+            }
+        ]
+    },
+    {
+        "active": true,
+        "name": "Tomaten Salat",
+        "description": "Wahl aus: Klein oder Groß - Verschiedene Dressings",
+        "productNumber": "054",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 4.00,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_9}"
+            }
+        ]
+    },
+    {
+        "active": true,
+        "name": "Gemischter Salat",
+        "description": "Eisbergsalat mit Gurke, Tomaten, Zwiebeln, Paprika, Mais und Bohnen - Wahl aus: Klein oder Groß - Verschiedene Dressings",
+        "productNumber": "055",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 4.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_9}"
+            }
+        ]
+    },
+
+    {
+        "active": true,
+        "name": "Pommes klein",
+        "description": "Aus frischen Kartoffeln",
+        "productNumber": "100",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 2.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_11}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/pexels-dzenina-lukac-1583884"
+        }
+    },
+    {
+        "active": true,
+        "name": "Pommes groß",
+        "description": "Aus frischen Kartoffeln",
+        "productNumber": "101",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 3.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_11}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/pexels-dzenina-lukac-1583884"
+        }
+    },
+    {
+        "active": true,
+        "name": "Bratkartoffeln",
+        "description": "Kross gebraten",
+        "productNumber": "102",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 3.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_11}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/potatoes-721076_1920"
+        }
+    },
+    {
+        "active": true,
+        "name": "Reis",
+        "description": "",
+        "productNumber": "103",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 3.00,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_11}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/pexels-vie-studio-7421204"
+        }
+    },
+    {
+        "active": true,
+        "name": "Mayonnaise",
+        "description": "",
+        "productNumber": "104",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 0.30,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_11}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/pexels-engin-akyurt-1435901"
+        }
+    },
+    {
+        "active": true,
+        "name": "Ketchup",
+        "description": "",
+        "productNumber": "105",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 0.30,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_11}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/pexels-engin-akyurt-1435901"
+        }
+    },
+    {
+        "active": true,
+        "name": "Weißwein 0,7l",
+        "description": "Wechselndes Sortiment.",
+        "productNumber": "200",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 8.00,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_13}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/white-wine-1761575_1920"
+        }
+    },
+    {
+        "active": true,
+        "name": "Rotwein 0,7l",
+        "description": "Wechselndes Sortiment.",
+        "productNumber": "201",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 8.00,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_13}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/red-wine-2409301_1920"
+        }
+    },
+    {
+        "active": true,
+        "name": "Sekt 0,7l",
+        "description": "Wechselndes Sortiment.",
+        "productNumber": "202",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 9.00,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_13}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/champagne-2711895_1920"
+        }
+    },
+    {
+        "active": true,
+        "name": "Bier Pils 0,33l",
+        "description": "Wechselndes Sortiment.",
+        "productNumber": "203",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 3.00,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_13}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/beer-4331153_1920"
+        }
+    },
+    {
+        "active": true,
+        "name": "Bier Weizen 0,5l",
+        "description": "Wechselndes Sortiment.",
+        "productNumber": "204",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 4.00,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_13}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/beer-1379581_1920"
+        }
+    },
+    {
+        "active": true,
+        "name": "Coca Cola 0,2l",
+        "description": "",
+        "productNumber": "205",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 2.00,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_12}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/coca-cola-2099000_1920"
+        }
+    },
+    {
+        "active": true,
+        "name": "Pepsi Cola 0,33l",
+        "description": "",
+        "productNumber": "206",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 2.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_12}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/coke-5057608_1920"
+        }
+    },
+    {
+        "active": true,
+        "name": "Fanta 0,33l",
+        "description": "",
+        "productNumber": "207",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 2.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_12}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/coke-5057608_1920"
+        }
+    },
+    {
+        "active": true,
+        "name": "Sprite 0,33l",
+        "description": "",
+        "productNumber": "208",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 2.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_12}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/coke-5057608_1920"
+        }
+    },
+    {
+        "active": true,
+        "name": "Mineralwasser 0,33l",
+        "description": "Mit Kohlensäure",
+        "productNumber": "209",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 2.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_12}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/water-4934455_1920"
+        }
+    },
+    {
+        "active": true,
+        "name": "Milchshake 0,5l",
+        "description": "Schokolade",
+        "productNumber": "210",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 3.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_12}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/smoothie-5746908_1920"
+        }
+    },
+    {
+        "active": true,
+        "name": "Milchshake 0,5l",
+        "description": "Vanille",
+        "productNumber": "211",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 3.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_12}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/smoothie-5746908_1920"
+        }
+    },
+    {
+        "active": true,
+        "name": "Milchshake 0,5l",
+        "description": "Erdbeere",
+        "productNumber": "212",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 3.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_12}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/smoothie-5746908_1920"
+        }
+    },
+    {
+        "active": true,
+        "name": "Kaffee 0,2l",
+        "description": "",
+        "productNumber": "213",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 2.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_12}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/coffee-1117933_1920"
+        }
+    },
+    {
+        "active": true,
+        "name": "Cappuccino 0,2l",
+        "description": "",
+        "productNumber": "214",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 2.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_12}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/coffee-983955_1920"
+        }
+    }
 ]

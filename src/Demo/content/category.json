@@ -8,24 +8,80 @@
     "name": "Speisekarte"
   },
   {
-    "id": "{DEMO_CATEGORY_1}",
+    "id": "{DEMO_CATEGORY_5}",
     "parentId": "{DEMO_CATEGORY_0}",
-    "mediaId": "pexels-photo-842519",
+    "mediaId": "category/hamburger-494706_1920",
+    "active": true,
+    "name": "Burger"
+  },
+  {
+    "id": "{DEMO_CATEGORY_4}",
+    "parentId": "{DEMO_CATEGORY_0}",
+    "mediaId": "category/pizza-3010062_1920",
     "active": true,
     "name": "Pizza"
   },
   {
-    "id": "{DEMO_CATEGORY_2}",
+    "id": "{DEMO_CATEGORY_6}",
     "parentId": "{DEMO_CATEGORY_0}",
-    "mediaId": "pexels-photo-2092906",
+    "mediaId": "category/pizza-2779370_1280",
+    "active": true,
+    "name": "Pizzabrötchen"
+  },
+  {
+    "id": "{DEMO_CATEGORY_7}",
+    "parentId": "{DEMO_CATEGORY_0}",
+    "mediaId": "category/food-5464856_1920",
+    "active": true,
+    "name": "Calzone"
+  },
+  {
+    "id": "{DEMO_CATEGORY_8}",
+    "parentId": "{DEMO_CATEGORY_0}",
+    "mediaId": "category/pexels-photo-6287446",
     "active": true,
     "name": "Pasta"
   },
   {
-    "id": "{DEMO_CATEGORY_3}",
+    "id": "{DEMO_CATEGORY_9}",
     "parentId": "{DEMO_CATEGORY_0}",
-    "mediaId": "pexels-photo-1189261",
+    "mediaId": "category/salad-2756467_1920",
     "active": true,
-    "name": "Getränke"
+    "name": "Salate"
+  },
+  {
+    "id": "{DEMO_CATEGORY_10}",
+    "parentId": "{DEMO_CATEGORY_0}",
+    "mediaId": "category/schnitzel-3279045_1920",
+    "active": true,
+    "name": "Schnitzel"
+  },
+  {
+    "id": "{DEMO_CATEGORY_11}",
+    "parentId": "{DEMO_CATEGORY_0}",
+    "mediaId": "category/club-sandwich-3538455_1920",
+    "active": true,
+    "name": "Snacks / Beilagen"
+  },
+  {
+    "id": "{DEMO_CATEGORY_12}",
+    "parentId": "{DEMO_CATEGORY_0}",
+    "mediaId": "category/drink-462776_1280",
+    "active": true,
+    "name": "Alkoholfreie Getränke"
+  },
+  {
+    "id": "{DEMO_CATEGORY_13}",
+    "parentId": "{DEMO_CATEGORY_0}",
+    "mediaId": "category/cocktails-1149171_1920",
+    "active": true,
+    "name": "Alkoholhaltige Getränke"
+  },
+  {
+    "id": "{DEMO_CATEGORY_14}",
+    "parentId": "{DEMO_CATEGORY_0}",
+    "mediaId": "category/pexels-acharaporn-kamornboonyarush-1028714",
+    "active": true,
+    "name": "Nachtisch"
   }
 ]

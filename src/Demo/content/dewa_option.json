@@ -9,7 +9,7 @@
       {"price": 0, "priceFactor": 3.4, "priority": 600, "name": "Ø 60cm"}
     ],
     "optionCategories": [
-      {"categoryId": "{DEMO_CATEGORY_1}","name": "Größe", "priority": 900}
+      {"categoryId": "{DEMO_CATEGORY_4}","name": "Größe", "priority": 900}
     ]
   },
   {
@@ -20,7 +20,7 @@
       {"price": 1, "priceFactor": 0, "priority": 800, "name": "Dinkel"}
     ],
     "optionCategories": [
-      {"categoryId": "{DEMO_CATEGORY_1}","name": "Teigvariante", "priority": 800}
+      {"categoryId": "{DEMO_CATEGORY_4}","name": "Teigvariante", "priority": 800}
     ]
   },
   {
@@ -33,7 +33,7 @@
       {"price": 1, "priceFactor": 0, "priority": 600, "name": "Créme Fraiche"}
     ],
     "optionCategories": [
-      {"categoryId": "{DEMO_CATEGORY_1}","name": "Pizzasoße", "priority": 700, "isCollapsible": true}
+      {"categoryId": "{DEMO_CATEGORY_4}","name": "Pizzasoße", "priority": 700, "isCollapsible": true}
     ]
   },
   {
@@ -72,7 +72,7 @@
       {"price": 1, "priceFactor": 0, "priority": 0, "name": "Zwiebel Weiß"}
     ],
     "optionCategories": [
-      {"categoryId": "{DEMO_CATEGORY_1}","name": "Vegetarische Zutaten", "priority": 600, "isCollapsible": true}
+      {"categoryId": "{DEMO_CATEGORY_4}","name": "Vegetarische Zutaten", "priority": 600, "isCollapsible": true}
     ]
   },
   {
@@ -90,7 +90,7 @@
       {"price": 1.5, "priceFactor": 0, "priority": 0, "name": "Sucuc"}
     ],
     "optionCategories": [
-      {"categoryId": "{DEMO_CATEGORY_1}","name": "Fleisch Zutaten", "priority": 500, "isCollapsible": true}
+      {"categoryId": "{DEMO_CATEGORY_4}","name": "Fleisch Zutaten", "priority": 500, "isCollapsible": true}
     ]
   },
   {
@@ -104,7 +104,7 @@
       {"price": 1, "priceFactor": 0, "priority": 0, "name": "Thunfisch"}
     ],
     "optionCategories": [
-      {"categoryId": "{DEMO_CATEGORY_1}","name": "Fisch Zutaten", "priority": 400, "isCollapsible": true}
+      {"categoryId": "{DEMO_CATEGORY_4}","name": "Fisch Zutaten", "priority": 400, "isCollapsible": true}
     ]
   },
   {
@@ -118,42 +118,66 @@
       {"price": 0, "priceFactor": 0, "priority": 0, "name": "Tabasco"}
     ],
     "optionCategories": [
-      {"categoryId": "{DEMO_CATEGORY_1}","name": "Kostenlose Zutaten", "priority": 300, "isCollapsible": true}
+      {"categoryId": "{DEMO_CATEGORY_4}","name": "Kostenlose Zutaten", "priority": 300, "isCollapsible": true}
     ]
   },
   {
     "name": "Kommentar",
     "type": "textarea",
     "optionCategories": [
-      {"categoryId": "{DEMO_CATEGORY_1}","name": "Kommentar", "priority": 100},
-      {"categoryId": "{DEMO_CATEGORY_2}","name": "Kommentar", "priority": 100}
+      {"categoryId": "{DEMO_CATEGORY_5}","name": "Kommentar", "priority": 100},
+      {"categoryId": "{DEMO_CATEGORY_6}","name": "Kommentar", "priority": 100},
+      {"categoryId": "{DEMO_CATEGORY_7}","name": "Kommentar", "priority": 100},
+      {"categoryId": "{DEMO_CATEGORY_8}","name": "Kommentar", "priority": 100},
+      {"categoryId": "{DEMO_CATEGORY_9}","name": "Kommentar", "priority": 100},
+      {"categoryId": "{DEMO_CATEGORY_10}","name": "Kommentar", "priority": 100},
+      {"categoryId": "{DEMO_CATEGORY_11}","name": "Kommentar", "priority": 100},
+      {"categoryId": "{DEMO_CATEGORY_12}","name": "Kommentar", "priority": 100},
+      {"categoryId": "{DEMO_CATEGORY_13}","name": "Kommentar", "priority": 100},
+      {"categoryId": "{DEMO_CATEGORY_14}","name": "Kommentar", "priority": 100}
     ]
   },
   {
     "name": "Beilage",
     "type": "checkbox",
     "items": [
-      {"price": 3, "priceFactor": 0, "priority": 0, "name": "Pommes Frites"},
-      {"price": 4, "priceFactor": 0, "priority": 0, "name": "Western Kartoffeln"},
-      {"price": 1.5, "priceFactor": 0, "priority": 0, "name": "Coleslaw"}
+      {"price": 2.5, "priceFactor": 0, "priority": 0, "name": "Pommes Frites"},
+      {"price": 3.5, "priceFactor": 0, "priority": 0, "name": "Bratkartoffeln"},
+      {"price": 3, "priceFactor": 0, "priority": 0, "name": "Reis"},
+      {"price": 3, "priceFactor": 0, "priority": 0, "name": "Gemischter Salat"}
     ],
     "optionCategories": [
-      {"categoryId": "{DEMO_CATEGORY_2}","name": "Beilage", "priority": 800}
+      {"categoryId": "{DEMO_CATEGORY_5}","name": "Beilage", "priority": 900},
+      {"categoryId": "{DEMO_CATEGORY_10}","name": "Beilage", "priority": 900}
+    ]
+  },
+    {
+    "name": "Beilage Schnitzel",
+    "type": "checkbox",
+    "items": [
+      {"price": 0, "priceFactor": 0, "priority": 0, "name": "Pommes Frites"},
+      {"price": 0, "priceFactor": 0, "priority": 0, "name": "Bratkartoffeln"},
+      {"price": 0, "priceFactor": 0, "priority": 0, "name": "Reis"},
+      {"price": 0, "priceFactor": 0, "priority": 0, "name": "Gemischter Salat"}
+    ],
+    "optionCategories": [
+      {"categoryId": "{DEMO_CATEGORY_10}","name": "Beilage", "priority": 900}
     ]
   },
   {
     "name": "Dip",
     "type": "checkbox",
     "items": [
-      {"price": 1, "priceFactor": 0, "priority": 0, "name": "Curry"},
-      {"price": 1, "priceFactor": 0, "priority": 0, "name": "Süß Sauer"},
-      {"price": 1, "priceFactor": 0, "priority": 0, "name": "Chilli"},
-      {"price": 1, "priceFactor": 0, "priority": 0, "name": "Ketchup"},
-      {"price": 1, "priceFactor": 0, "priority": 0, "name": "Sour Cream"},
-      {"price": 1, "priceFactor": 0, "priority": 0, "name": "Mayonnaise"}
+      {"price": 0.5, "priceFactor": 0, "priority": 0, "name": "Curry"},
+      {"price": 0.5, "priceFactor": 0, "priority": 0, "name": "Süß Sauer"},
+      {"price": 0.5, "priceFactor": 0, "priority": 0, "name": "Chilli"},
+      {"price": 0.3, "priceFactor": 0, "priority": 0, "name": "Ketchup"},
+      {"price": 0.5, "priceFactor": 0, "priority": 0, "name": "Sour Cream"},
+      {"price": 0.3, "priceFactor": 0, "priority": 0, "name": "Mayonnaise"}
     ],
     "optionCategories": [
-      {"categoryId": "{DEMO_CATEGORY_2}","name": "Dip", "priority": 800}
+      {"categoryId": "{DEMO_CATEGORY_5}","name": "Dip", "priority": 800},
+      {"categoryId": "{DEMO_CATEGORY_10}","name": "Dip", "priority": 800}
     ]
   },
   {
@@ -164,7 +188,7 @@
       {"price": 0, "priceFactor": 1.5, "priority": 0, "name": "Groß"}
     ],
     "optionCategories": [
-      {"categoryId": "{DEMO_CATEGORY_2}","name": "Größe", "priority": 900}
+      {"categoryId": "{DEMO_CATEGORY_9}","name": "Größe", "priority": 900}
     ]
   },
   {
@@ -178,7 +202,7 @@
       {"price": 0, "priceFactor": 0, "priority": 0, "name": "Ohne Dressing"}
     ],
     "optionCategories": [
-      {"categoryId": "{DEMO_CATEGORY_2}","name": "Dressing", "priority": 800}
+      {"categoryId": "{DEMO_CATEGORY_9}","name": "Dressing", "priority": 800}
     ]
   }
 ]
